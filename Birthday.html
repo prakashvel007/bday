@@ -1,0 +1,384 @@
+<html>
+<head>
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <h2>Happy Birthday My Princess</h2>
+  <meta name="viewport" content="width=800, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  <style type="text/css">
+  .animate__animated.animate__slideInLeft{
+  --animate-duration: 5s;
+  animation-iteration-count: infinite;
+}
+body {
+    background:#111;
+    font-family: 'Dosis', Helvetica, Arial, sans-serif;
+  font-weight:600; 
+}
+
+h2 {
+    
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+.canvas {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+body { margin:20px; background:hsl(70, 31%, 85%); text-align:center; }
+
+
+.giphy{
+bottom:100px;
+  position:absolute;
+}
+h1{
+  font-size:50px;
+  text-align:center;
+  color:dogger blue;
+}
+/* This changes all the animations globaly */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  background: #E5E5E5;
+  background-image: url("bday4.jpg");
+  background-size:1500px 940px;
+}
+
+#card-front {
+  color: blue;
+}
+
+#card, #card-front, #card-inside {
+  height: 480px;
+}
+
+.wrap {
+    padding: 1.5em 2.5em;
+    height: 100%;
+}
+#card-front, #card-inside {
+  width: 60%;
+  -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 2px 2px 30px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .5);
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .5);
+  position: absolute;
+  left: 50%;
+}
+
+
+#card-inside .wrap {
+    background: black;
+    -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 2px 0 1px rgba(0, 0, 0, .05);
+}
+#card {
+    max-width: 860px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    perspective: 5000px;
+    -moz-perspective: 5000px;
+    -webkit-perspective: 5000px;
+    position: relative;
+}
+
+#card h1 {
+    text-align: center;
+    font-family: 'Nobile', sans-serif;
+    font-style: italic;
+    font-size: 70px;
+    text-shadow:
+        4px 4px 0px rgba(0, 0, 0, .15),
+        1px 1px 0 rgba(255, 200, 200, 255),
+        2px 2px 0 rgba(255, 150, 150, 255),
+        3px 3px 0 rgba(255, 125, 125, 255);
+    color: #FFF;
+}
+#card-inside {
+    font-size: 1.1em;
+    line-height: 1.4;
+    font-family: 'Nobile';
+    color: black;
+    font-style: italic;
+}
+
+p {
+    margin-top: 1em;
+    color:pink;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+p.signed {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.5em;
+}
+
+#card-front {
+
+    background-image: url("bday3.jpg");
+    background-size:750px;
+            transform-origin: left;
+       -moz-transform-origin: left;
+    -webkit-transform-origin: left;
+            transition:         transform 1s linear;
+       -moz-transition:    -moz-transform 1s linear;
+    -webkit-transition: -webkit-transform 1s linear;
+    position: relative;
+}
+
+#card-front .wrap {
+            transition: background 1s linear;
+       -moz-transition: background 1s linear;
+    -webkit-transition: background 1s linear;
+}
+
+#card-front button {
+  position: absolute;
+  bottom: 1em;
+  right: -12px;
+  background:#F012BE;
+  color: blue;
+  font-family: 'Nobile', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: .5em;
+  border: none;
+  cursor: pointer;
+          box-shadow: 2px 2px 3px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .4);
+     -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .4);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .4);
+}
+
+#card-front button:hover,
+#card-front button:focus {
+  background-color:violet;
+}
+
+#close {
+  display: none;
+}
+
+#card.open-fully #close,
+#card-open-half #close {
+  display: inline;
+}
+
+#card.open-fully #open {
+  display: none;
+}
+
+
+#card.open-half #card-front,
+#card.close-half #card-front {
+            transform: rotateY(-90deg);
+       -moz-transform: rotateY(-90deg);
+    -webkit-transform: rotateY(-90deg);
+}
+#card.open-half #card-front .wrap {
+    background-color: red;
+}
+
+#card.open-fully #card-front,
+#card.close-half #card-front {
+  background-image: url("pic2.jpeg"); 
+  background-size:500px;
+}
+
+#card.open-fully #card-front {
+    transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+}
+
+#card.open-fully #card-front .wrap {
+    background-image: url("pic2.jpeg");
+    background-size:500px;
+}
+
+#card.open-fully #card-front .wrap *,
+#card.close-half #card-front .wrap * {
+   display: none;
+}
+
+.balloon {
+  display:inline-block;
+   width:100px;
+  height:125px;
+  background:hsl(215,50%,65%);
+  border-radius:70%;
+  position:relative;
+  box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
+  margin:10px 30px;
+  transition:transform 0.5s ease;
+  z-index:1;
+  animation:balloons 9s ease-in-out infinite;
+  transform-origin:bottom center;
+}
+
+@keyframes balloons {
+  0%,100%{ transform:translateY(0) rotate(-9deg); }
+  50%{ transform:translateY(-1000px) rotate(9deg); } /*To FLOW BALLOOON FROM BOTTOM TO UP*/
+}
+
+
+.balloon:before {
+  content:"▲";
+  font-size:20px;
+  color:hsl(215,30%,50%);
+  display:block;
+  text-align:center;
+  width:100%;
+  position:absolute;
+  bottom:-12px;
+  z-index:-100;
+}
+
+.balloon:after {
+ display:inline-block; top:153px;
+  position:absolute;
+  height:250px;
+  width:1px;
+  margin:0 auto;
+  content:"";
+  background:rgba(0,0,0,0.2);
+}
+
+.balloon:nth-child(2){ background:hsl(245,40%,65%); animation-duration:3.5s; }
+.balloon:nth-child(2):before { color:hsl(245,40%,65%);  }
+
+.balloon:nth-child(3){ background:hsl(139,50%,60%); animation-duration:3s; }
+.balloon:nth-child(3):before { color:hsl(139,30%,50%);  }
+
+.balloon:nth-child(4){ background:hsl(59,50%,58%); animation-duration:4.5s; }
+.balloon:nth-child(4):before { color:hsl(59,30%,52%);  }
+
+.balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
+.balloon:nth-child(5):before { color:hsl(23,44%,46%);  }
+
+
+footer {
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: 'Nobile', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #888;
+  text-align: center;
+}
+p{
+
+}
+  </style>
+</head>
+<body>
+<div id="card">
+  <div id="card-inside">
+    <div class="wrap">
+      <p>Hey noseini</p>
+      <p>A wish for you on your birthday, whatever you ask may you receive, whatever you seek may you find,
+        whatever you wish may it be fulfilled on your birthday and always.I made this all as a birthday present to you.Happy birthday!</p>
+      <p>I will be there with you forever.
+      </p>
+      <center><h4 style="color:pink margin-top:-10px">from</h4></center>
+      <p class="signed">From Prakash<img class="giphy" src="https://media.tenor.com/images/3e375093f00d9524149b3c8a184c6b91/tenor.gif" alt="support aagala" height="100px"></p>
+
+    </div>
+  </div>
+  <div id="card-front">
+    <div class="wrap">
+    </div>
+    <button id="open">&gt;</button>
+    <button id="close">&lt;</button>
+  </div>
+</div>
+<script>
+$easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+</script>
+<script>
+    (function() {
+  function $(id) {
+    return document.getElementById(id);
+  }
+
+  var card = $('card'),
+      openB = $('open'),
+      closeB = $('close'),
+      timer = null;
+  console.log('wat', card);
+  openB.addEventListener('click', function () {
+    card.setAttribute('class', 'open-half');
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(function () {
+      card.setAttribute('class', 'open-fully');
+      timer = null;
+    }, 1000);
+  });
+
+  closeB.addEventListener('click', function () {
+    card.setAttribute('class', 'close-half');
+    if (timer) clearTimerout(timer);
+    timer = setTimeout(function () {
+      card.setAttribute('class', '');
+      timer = null;
+    }, 1000);
+  });
+
+}());
+
+  </script>
+<div class="balloon" style="background:rgba(182, 15, 97, 0.9)"><h1>N</h1></div>
+<div class="balloon" style="background:rgba(242, 112, 45, 0.9)"><h1>I</h1></div>
+<div class="balloon" style="background:rgba(45, 181, 167, 0.9)"><h1>R</h1></div>
+<div class="balloon" style="background:rgba(190, 61, 244, 0.9)"><h1>O</h1></div>
+<div class="balloon" style="background:rgba(180, 224, 67, 0.9)"><h1>S</h1></div>
+<div class="balloon" style="background:rgba(242, 194, 58, 0.9)"><h1>H</h1></div>
+<div class="balloon" style="background:hsl(23,55%,57%)"><h1>I</h1></div>
+<div class="balloon" style="background:red"><h1>N</h1></div>
+<div class="balloon" style="background:violet"><h1>I</h1></div>
+<div style="visibility: hidden;">
+  <embed src="bday1.mp3" autostart="true" loop="true">
+</div>
+</body>
+</html>
